@@ -17,7 +17,7 @@ local utils = import './lib/utils.libsonnet';
   // using `values` as this is similar to helm
   values:: {
     common: {
-      namespace: 'default',
+      namespace: 'refty',
       platform: null,
       ruleLabels: {
         role: 'alert-rules',
